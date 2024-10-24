@@ -45,6 +45,34 @@ Here is a list of additional tools used in these docs.  You may have to install 
 
 ### Install Knative kn Quickstart
 
+Installing Knative.  Works on Linux.  
+> [!IMPORTANT]
+> Not tested on Mac but should work.  May need to tweek.
+
 [Install Knative CLI](https://knative.dev/docs/install/quickstart-install/#install-the-knative-cli)
 [Install Knative Quickstart](https://knative.dev/docs/install/quickstart-install/)
 
+If you want, a simple bash script is in the root directory. 
+````Bash
+start-minikube.sh
+````
+Should you be on linux, a simple upgrade bash script is also provided.
+````Bash
+upgrade-minikube.sh
+````
+## Get Started Learning Knative or using it for a Demo
+
+- [01 Knative Demo](./topics/01-knative-demo.md)
+- [02 Knative and Minikube](./topics/02-knative-minikube.md)
+- [03 Knative Services](./topics/03-knative-services.md)
+- [04 Knative Scale to Zero](./topics/04-knative-scale-to-zero.md)
+- [05 Knative Traffic Distribution](./topics/05-knative-traffic-distribution.md)
+- [06 Knative Eventing](./topics/06-knative-eventing.md)
+- [07 Knative Functions](./topics/07-knative-functions.md)
+
+### Other interesting bits
+
+- [Knative Client](./topics/knative-client.md)
+- [Knative Revisions and Traffic Distribution](./topics/knative-revisions-and-traffic-distribution.md)
+- [Knative Serving](./topics/knative-serving.md)
+- [Knative Serving Scaling](./topics/knative-serving-scaling.md)

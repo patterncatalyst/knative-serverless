@@ -2,6 +2,9 @@
 
 # Minikube update script file
 
+# Make sure to delete all the profiles
+# minikube profile list <-- this will show you all the current profiles
+
 minikube delete && \ 
 sudo rm -rf /usr/local/bin/minikube && \ 
 sudo curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 && \ 
