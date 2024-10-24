@@ -6,9 +6,9 @@ The intention is to learn Knative locally on your laptop leveraging local toolin
 
 ## Prerequisites
  
-- 2 CPUs or more
-- 2 GB of free memory
-- 20 GB of free disk space
+- 6 CPUs or more
+- 16 GB of free memory
+- 50 GB of free disk space
 - Good internet connection
 - Container or virtual machine manager: Docker, containerd, Podman, VirtualBox, Hyperkit
 > [!NOTE]
